@@ -16,5 +16,8 @@ public class View
         controller.LeggTilMøte(meetID, participants, timeFrame);
     }
 
-
+    public void WriteToFile(string fileName)
+    {
+        controller.WriteToFile(fileName);
+    }
 }
