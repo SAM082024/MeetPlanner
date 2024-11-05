@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 public class View
 {
     private Controller controller = new Controller();
